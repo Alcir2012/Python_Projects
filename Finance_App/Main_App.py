@@ -39,7 +39,7 @@ app_label.place(x=0, y=0)
 
 #Inserindo imagem
 
-app_image = Image.open('projeto_orçamento.png')
+app_image = Image.open('D:\Python\Projetos\Finance_App\projeto_orçamento.png')
 app_image = app_image.resize((40,40))
 app_image = ImageTk.PhotoImage (app_image)
 
